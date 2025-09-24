@@ -1,0 +1,39 @@
+{ 
+  "expo": { 
+    "name": "Hamburguer", 
+    "slug": "Hamburguer", 
+    "version": "1.0.0", 
+    "orientation": "portrait", 
+    "icon": "./assets/images/icon.png", 
+    "scheme": "hamburguer", 
+    "userInterfaceStyle": "Dark", 
+    "newArchEnabled": true, 
+    "splash": { 
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain", 
+      "backgroundColor": "#FFFFFF " 
+    },
+    "ios": { 
+      "supportsTablet": true 
+    },
+    "android": { 
+      "adaptiveIcon": { 
+        "foregroundImage": "./assets/images/adaptive-icon.png", 
+        "backgroundColor": "#0F172A" 
+      },
+      "edgeToEdgeEnabled": true 
+    },
+    "web": { 
+      "bundler": "metro", 
+      "output": "static", 
+      "favicon": "./assets/images/favicon.png" 
+    },
+    "plugins": [ 
+      "expo-router", 
+      "expo-font" 
+    ],
+    "experiments": { 
+      "typedRoutes": true 
+    }
+  }
+}

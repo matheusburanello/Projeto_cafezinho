@@ -1,0 +1,10 @@
+{ // Objeto de configuração do TypeScript
+  "extends": "expo/tsconfig.base", // Estende configuração base do Expo
+  "compilerOptions": { // Opções do compilador TypeScript
+    "strict": true, // Habilita modo estrito (verificações rigorosas)
+    "paths": { // Mapeamento de caminhos para imports
+      "@/*": ["./src/*"] // Alias @ aponta para pasta src
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"] // Arquivos a serem incluídos na compilação
+}
